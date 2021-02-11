@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/files-scrpits",
+      "handler": "files-scrpit.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/files-scrpits/count",
+      "handler": "files-scrpit.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/files-scrpits/:id",
+      "handler": "files-scrpit.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/files-scrpits",
+      "handler": "files-scrpit.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/files-scrpits/:id",
+      "handler": "files-scrpit.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/files-scrpits/:id",
+      "handler": "files-scrpit.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

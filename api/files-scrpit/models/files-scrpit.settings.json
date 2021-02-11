@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "files_scrpits",
+  "info": {
+    "name": "Files_scrpit",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "size": {
+      "type": "float"
+    },
+    "directory": {
+      "type": "string"
+    }
+  }
+}
